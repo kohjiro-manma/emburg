@@ -1,0 +1,31 @@
+# OS 特有のファイル
+.DS_Store
+Thumbs.db
+
+# エディタ/IDE 一時ファイル
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.md
+.phpstorm.meta.php
+.editorconfig
+
+# ビルド成果物・ライブラリ
+node_modules/
+dist/
+build/
+target/
+*.log
+
+# 環境変数・秘密情報
+.env
+.env.local
+.env.*.local
+.git/
+.gitattributes
+composer.json
+composer.lock
