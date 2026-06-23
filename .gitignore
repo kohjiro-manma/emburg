@@ -26,6 +26,7 @@ target/
 .env.local
 .env.*.local
 .git/
+.github/
 .gitattributes
 composer.json
 composer.lock
